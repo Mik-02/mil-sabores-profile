@@ -2,7 +2,7 @@
 
 A Spring Boot REST API for user management with JWT authentication, designed for the Mil Sabores application.
 
-## 🚀 Features
+##  Features
 
 - **User Registration** - Create new user accounts
 - **User Authentication** - JWT-based login system
@@ -10,7 +10,7 @@ A Spring Boot REST API for user management with JWT authentication, designed for
 - **Security** - Spring Security with JWT token validation
 - **Database Ready** - Configured for both H2 (development) and MySQL (production)
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Java 17**
 - **Spring Boot 3.5.7**
@@ -22,7 +22,7 @@ A Spring Boot REST API for user management with JWT authentication, designed for
 - **MySQL Driver** - Production database connectivity
 - **Maven** - Dependency management
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running this application, ensure you have:
 
@@ -30,7 +30,7 @@ Before running this application, ensure you have:
 - Maven 3.6+
 - (Optional) MySQL 8.0+ for production
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -50,7 +50,7 @@ mvn spring-boot:run
 
 The application will start on `http://localhost:8080`
 
-## 🔧 Configuration
+##  Configuration
 
 ### Development (H2 Database)
 The application uses H2 in-memory database by default. Access the H2 console at:
@@ -71,7 +71,7 @@ spring.datasource.password=your-password
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Authentication Endpoints
 
@@ -115,7 +115,7 @@ GET /api/users
 Authorization: Bearer your-jwt-token
 ```
 
-## 🔐 Security
+##  Security
 
 ### JWT Authentication Flow
 
@@ -146,7 +146,7 @@ JWT Expiration: 2024-01-01T12:00:00.000Z
 === END SECURITY DEBUG ===
 ```
 
-## 🗄 Database Schema
+##  Database Schema
 
 ### Users Table
 ```sql
@@ -161,7 +161,7 @@ CREATE TABLE users (
 );
 ```
 
-## 🧪 Testing the API
+##  Testing the API
 
 ### 1. Register a User
 ```bash
@@ -191,7 +191,7 @@ curl -X GET http://localhost:8080/api/users \
   -H "Authorization: Bearer YOUR_JWT_TOKEN_HERE"
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/main/java/com/milsabores/profile/
@@ -204,7 +204,7 @@ src/main/java/com/milsabores/profile/
 └── service/         # Business logic
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### AWS RDS Setup
 1. Create MySQL instance in AWS RDS
@@ -216,7 +216,7 @@ src/main/java/com/milsabores/profile/
 mvn clean package -DskipTests
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -224,15 +224,15 @@ mvn clean package -DskipTests
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+##  Support
 
 For support, email desarrollo@milsabores.com or create an issue in the repository.
 
-## 🔄 Version History
+##  Version History
 
 - **v1.0.0** (Current)
   - Initial release
